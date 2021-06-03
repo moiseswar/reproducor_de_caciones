@@ -1,0 +1,29 @@
+html {
+  font-family: sans-serif;
+}
+.container {
+  width: 70vw;
+  height: 100vh;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.listado-canciones {
+  width: 100%;
+}
+.cancion {
+  padding: 1rem 2rem;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  flex: 6;
+}
+.play, .stop, .download {
+  flex: 1;
+}
